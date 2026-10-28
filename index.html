@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Set List: Support</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<nav><a href="index.html">Support</a><a href="privacy.html">Privacy Policy</a></nav>
+<h1>Set List</h1>
+<p class="muted">Build a varied set list from your own songs, then see the whole set on one screen.</p>
+
+<h2>How it works</h2>
+<ol>
+<li><strong>Songs tab:</strong> add your songs under categories (Ambient, Singer-Songwriter, anything you like). A chord chart and lyrics are optional.</li>
+<li><strong>Set tab → ⋯ → New Set:</strong> pick a length and drag the mix sliders. The shares always add up to 100%. Set List builds the set.</li>
+<li>Songs you haven't played in the longest time are picked first, and the running order avoids your recent sets. Every set is saved with its date under <strong>History</strong>.</li>
+<li>Tap any song for its chart. Use Previous and Next to walk the set, and Back to return to the list.</li>
+</ol>
+
+<h2>Add songs from a computer</h2>
+<div class="card">
+<p>Plug in your iPhone, open <strong>Finder</strong>, select the iPhone and open the <strong>Files</strong> tab. Drag song files onto <strong>Set List</strong>. Open the app and they are added to your library.</p>
+<ul>
+<li>One file is one song. The file name is the title, or put <code>{title: My Song}</code> on the first line.</li>
+<li>Chords can sit above the lyrics, inline like <code>[Am]</code>, or on a line such as <code>Verse: G F C G</code>. A file with no chords is treated as lyrics.</li>
+<li>Put files in a folder to choose the category: <code>Ambient/Slow Orbit.txt</code>.</li>
+<li>Add <code>{duration: 4:30}</code> on its own line to set a song's length.</li>
+<li>Supported: .txt .chordpro .cho .crd .pro, plus .json in the library format.</li>
+</ul>
+<p>You can also use <strong>Songs → + → Import from Files</strong> on the phone.</p>
+</div>
+
+<h2>Questions</h2>
+<p><strong>Where is my data?</strong> Only on your iPhone. There is no account and nothing is uploaded. If you delete the app, your songs and sets go with it.</p>
+<p><strong>The set is shorter than I asked for.</strong> The categories you gave a share to don't have enough songs. Add songs, or lower that category's share.</p>
+<p><strong>Song lengths.</strong> New songs default to 4:00. Edit a song to set its real length so sets come out the right size.</p>
+
+<h2>Contact</h2>
+<p>Questions, bugs or ideas: <a href="https://github.com/joshmartin1186/set-list-support/issues">open an issue</a>.</p>
+
+<p class="muted">Set List is published by AI West LLC.</p>
+</main>
+</body>
+</html>
